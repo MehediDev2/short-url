@@ -13,6 +13,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
       form {
+        width: 40%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -25,11 +26,11 @@
   </head>
   <body>
     <h1 class="mt-4">URL Shortener</h1>
+    <p style="font-size: 18px; margin-bottom: 0;">Enter your original URL</p>
     <form method="post" action="/url">
-      <h3>Enter your original URL</h3>
       <input 
         class="form-control"
-        style="margin: 15px 0px; padding: 7px 10px; font-size: 16px; width: 400px;"
+        style="margin: 15px 0px; padding: 7px 10px; font-size: 16px; max-width: 400px;"
         type="text"
         name="url"
         placeholder="https://example.com"
