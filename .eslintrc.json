@@ -16,6 +16,7 @@
     "no-promise-executor-return": 0,
     "func-names": 0,
     "implicit-arrow-linebreak": 0,
+    "no-underscore-dangle": 0,
     // End
     "prettier/prettier": [
       "error",
